@@ -42,17 +42,6 @@ The extracted job details and the retrieved portfolio projects are combined and 
 
 The generated email is displayed in the Streamlit app, ready for the user to review, edit if needed, and use.
 
-Project Structure
-project/
-│── app/
-│   └── main.py        # Streamlit application entry point
-│── chains.py          # Chains that define workflows for extraction and generation
-│── portfolio.py       # Logic for handling portfolio data and embeddings
-│── utils.py           # Helper functions (loading environment variables, formatting, etc.)
-│── my_portfolio.csv   # Portfolio dataset used for retrieval
-│── requirement.txt    # Project dependencies
-│── README.md          # Project documentation
-
 Key Components
 
 Streamlit Application (main.py)
